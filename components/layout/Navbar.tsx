@@ -27,23 +27,23 @@ export default function NavBar() {
     }, []);
 
     return (
-        <div className="fixed  left-0 top-0 z-50 right-0  bg-dark08 text-white  px-[100px] max-900:px-[20px] transition-all duration-300">
-            <div className="max-900:border-l border-r border-lightgrey max-900:flex max-900:justify-between">
+        <div className="fixed border-b border-dark12  left-0 top-0 z-50 right-0  bg-dark06 text-white  px-[100px] max-900:px-[20px] transition-all duration-300">
+            <div className="max-900:border-l border-r border-dark12 max-900:flex max-900:justify-between">
 
 
-                <div className="border-l border-r border-lightgrey max-900:border-none flex items-center justify-between px-[30px] max-900:px-0 ">
+                <div className="border-l border-r border-dark12 max-900:border-none flex items-center justify-between px-[30px] max-900:px-0 ">
                     <Link href="/">
                         <div className="flex items-center gap-4  py-5 max-900:px-3 max-900:py-7">
                             <CustomImage src="/images/Logo.png" alt="Logo" width={130} height={130} priority />
                         </div>
                     </Link>
 
-                    <nav className="flex items-center max-900:hidden border border-lightgrey rounded-tl-lg rounded-tr-lg  mt-[30px] ">
+                    <nav className="flex items-center max-900:hidden border-t border-r border-l border-dark12 rounded-tl-lg rounded-tr-lg  mt-[30px] ">
                         {navLinks.map((link) => (
                             <Link
                                 key={link.href}
                                 href={link.href}
-                                className={`py-5 px-4 transition border-l border-lightgrey
+                                className={`py-5 px-4 transition border-l border-dark12
                           ${pathname === link.href
                                         ? "bg-dark12 text-white rounded-tl-lg rounded-tr-lg "
                                         : "text-grey70 hover:bg-dark12 hover:border-lightgrey rounded-tl-lg rounded-tr-lg"
@@ -87,7 +87,7 @@ export default function NavBar() {
                     </div>
                 </div>
 
-                <button className="hidden max-900:block text-white border border-lightgrey rounded-tl-[25px] mt-[20px] p-3 " onClick={() => setIsOpen(!isOpen)}>
+                <button className="hidden max-900:block text-white border border-dark12 rounded-tl-[25px] mt-[20px] p-3 " onClick={() => setIsOpen(!isOpen)}>
                     <CustomImage src="/images/toggle.png" alt="Menu" width={30} height={30} />
                 </button>
 

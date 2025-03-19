@@ -9,12 +9,14 @@ module.exports = {
     extend: {
       colors: {
         dark08: "#131316", // Deep black
+        dark06: "#0E0E10", // Black
+        
         dark12: "#1C1C21", // Dark gray
         yellow: "#FFD11A",
         white: "#FFFFFF",
         grey90: "#E4E4E6",
         grey70: "#AFB0B6",
-        grey50 : "#797C86",
+        grey50: "#797C86",
         grey40: "#62646C",
         dark20: "#333333",
         lightgrey: "#666666",
