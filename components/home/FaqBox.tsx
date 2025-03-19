@@ -1,9 +1,8 @@
-import ButtonWithArrow from "@components/ui/Button";
 import Faq from "./Faq";
 
 const FaqBox = () => {
     return (
-        <div>
+        <div className="mb-[100px]">
             <div className="pb-[30px] mb-[50px] px-[100px] max-900:px-[20px]  border-b border-dark12" >
                 <div>
                     <p className="text-grey40 text-[18px]">FAQ's</p>

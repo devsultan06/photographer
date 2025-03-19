@@ -1,6 +1,6 @@
+import Socials from "@components/layout/Socials";
 import ButtonWithArrow from "@components/ui/Button";
 import CustomImage from "@components/ui/CustomImage";
-import { FaGithub, FaInstagram, FaTwitter } from "react-icons/fa";
 const About = () => {
     return (
         <div>
@@ -46,12 +46,8 @@ const About = () => {
                     </div>
 
                     <div className="flex items-center justify-between mt-[20px] max-900:block ">
-                        <div className="flex gap-2  rounded-[100px] border border-dark12 p-2 w-fit max-900:mb-[30px]">
-                            <a href="https://x.com/devsultan06" className="hover:text-lightgrey text-white bg-dark12 p-3 border border-dark12 rounded-[1000]"><FaTwitter /></a>
-                            <a href="https://github.com/devsultan06" className="hover:text-lightgrey text-white  bg-dark12 p-3 border border-dark12 rounded-[1000]"><FaGithub /></a>
-                            <a href="https://www.instagram.com/devsultan06" className="hover:text-lightgrey text-white  bg-dark12 p-3 border border-dark12 rounded-[1000]"><FaInstagram /></a>
-                        </div>
 
+                        <Socials />
                         <div className="flex gap-3 max-900:flex-col max-900:w-full">
                             <ButtonWithArrow text="Let's Work" showArrow={false} className="max-900:w-full max-900:flex-1" />
                             <ButtonWithArrow text="Download CV" showArrow={false} className="max-900:w-full max-900:flex-1" />

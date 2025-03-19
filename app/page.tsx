@@ -4,10 +4,11 @@ import FaqBox from "@components/home/FaqBox";
 import Header from "@components/home/Header";
 import Marque from "@components/home/Marque";
 import Services from "@components/home/Services";
+import Testimonials from "@components/home/Testimonials";
 
 export default function Home() {
   return (
-    <div className="home bg-dark06 uppercase">
+    <div className="home bg-dark03 uppercase">
 
       <Header />
       <Marque />
@@ -15,6 +16,7 @@ export default function Home() {
       <Services />
       <Explore />
       <FaqBox />
+      <Testimonials />
     </div>
   );
 }

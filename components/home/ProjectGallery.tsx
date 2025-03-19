@@ -29,7 +29,7 @@ const projects = [
 
 const ProjectGallery = () => {
     return (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-[100px] max-900:px-[20px] pb-[130px]">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-[100px] max-900:px-[20px] pb-[100px]">
             {projects.map((project) => (
                 <div key={project.id} className="rounded-xl overflow-hidden">
                     <CustomImage width={200} height={200} src={project.image} alt={project.title} className="w-full h-[400px] object-cover" />

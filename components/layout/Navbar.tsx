@@ -27,7 +27,7 @@ export default function NavBar() {
     }, []);
 
     return (
-        <div className="fixed border-b border-dark12  left-0 top-0 z-50 right-0  bg-dark06 text-white  px-[100px] max-900:px-[20px] transition-all duration-300">
+        <div className="fixed border-b border-dark12  left-0 top-0 z-50 right-0  bg-dark03 text-white  px-[100px] max-900:px-[20px] transition-all duration-300">
             <div className="max-900:border-l border-r border-dark12 max-900:flex max-900:justify-between">
 
 

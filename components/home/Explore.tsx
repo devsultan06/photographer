@@ -1,7 +1,5 @@
 import ButtonWithArrow from "@components/ui/Button";
-import CustomImage from "@components/ui/CustomImage";
 import { BiChevronLeft, BiChevronRight } from "react-icons/bi";
-import { FaGithub, FaInstagram, FaTwitter } from "react-icons/fa";
 import ProjectGallery from "./ProjectGallery";
 
 
