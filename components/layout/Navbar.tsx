@@ -64,7 +64,7 @@ export default function NavBar() {
 
                 </div>
 
-                <div className={`fixed top-0 right-0 h-full w-full bg-black text-white flex flex-col items-center justify-center px-6 py-10 transform transition-transform duration-300
+                <div className={`fixed top-0 right-0 h-full w-full bg-dark03 text-white flex flex-col items-center justify-center px-6 py-10 transform transition-transform duration-300
                 ${isOpen ? "translate-x-0" : "translate-x-full"} max-900:flex max-900:fixed
             `}>
                     <button onClick={() => setIsOpen(false)} className="absolute top-6 right-6 text-white text-2xl">

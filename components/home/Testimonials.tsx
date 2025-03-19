@@ -85,8 +85,6 @@ const Testimonials = () => {
 
 
 
-
-
         </div>
     )
 }
