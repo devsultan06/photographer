@@ -67,14 +67,13 @@ export default function NavBar() {
                 <div className={`fixed top-0 right-0 h-full w-full bg-black text-white flex flex-col items-center justify-center px-6 py-10 transform transition-transform duration-300
                 ${isOpen ? "translate-x-0" : "translate-x-full"} max-900:flex max-900:fixed
             `}>
-                    {/* Close Button */}
                     <button onClick={() => setIsOpen(false)} className="absolute top-6 right-6 text-white text-2xl">
                         ✖
                     </button>
 
                     <div className="flex flex-col gap-6 text-xl">
                         {navLinks.map((link) => (
-                            <Link key={link.href} href={link.href} onClick={handleLinkClick} className="py-2 hover:bg-lightgrey p-3 rounded-md text-center">
+                            <Link key={link.href} href={link.href} onClick={handleLinkClick} className="py-2 hover:bg-dark12 p-3 rounded-md text-center">
                                 {link.name}
                             </Link>
                         ))}

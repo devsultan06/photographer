@@ -10,7 +10,7 @@ module.exports = {
       colors: {
         dark08: "#131316", // Deep black
         dark06: "#0E0E10", // Black
-        
+
         dark12: "#1C1C21", // Dark gray
         yellow: "#FFD11A",
         white: "#FFFFFF",
@@ -19,6 +19,7 @@ module.exports = {
         grey50: "#797C86",
         grey40: "#62646C",
         dark20: "#333333",
+        grey80: "#CACACE",
         lightgrey: "#666666",
 
 
