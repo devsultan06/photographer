@@ -1,8 +1,6 @@
 import ButtonWithArrow from "@components/ui/Button";
 import CustomImage from "@components/ui/CustomImage";
-import GradientButton from "@components/ui/GradientButton";
 import { FaGithub, FaInstagram, FaTwitter } from "react-icons/fa";
-import { MdArrowForward } from "react-icons/md";
 const About = () => {
     return (
         <div>
