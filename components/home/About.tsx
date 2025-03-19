@@ -7,7 +7,7 @@ const About = () => {
             <div className="flex items-center justify-between pb-[30px] mb-[50px] px-[100px] max-900:px-[20px] max-900:block border-b border-dark12" >
                 <div>
                     <p className="text-grey40 text-[18px]">About</p>
-                    <h1 className="text-[40px] max-900:mb-[10px] ">I am Damien</h1>
+                    <h1 className="text-[38px] max-900:mb-[10px] ">I am Damien</h1>
                 </div>
                 <ButtonWithArrow text="Know More" />
 

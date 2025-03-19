@@ -16,7 +16,7 @@ const Services = () => {
             <div className="flex  items-center justify-between pb-[30px] mb-[50px] px-[100px] max-900:px-[20px] max-900:block border-b border-dark12" >
                 <div>
                     <p className="text-grey40 text-[18px]">Services</p>
-                    <h1 className="text-[40px] max-900:mb-[10px] ">My Photography Services</h1>
+                    <h1 className="text-[38px] max-900:mb-[10px] ">My Photography Services</h1>
                 </div>
                 <div className="flex items-center gap-5">
                     <div className="flex gap-2 border border-dark12 px-2 py-1 rounded-[100px] 
