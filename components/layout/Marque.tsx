@@ -7,7 +7,7 @@ const Marque = () => {
     return (
         <div>
             <div className="p-5">
-                <Marquee speed={70} gradient={false}>
+                <Marquee speed={70} gradient={false} pauseOnHover>
                     {marquedata.map((item) => (
                         <div key={item.id} className="flex items-center gap-2 mx-4">
                             <CustomImage src="/images/star.png" alt="Star" width={30} height={10} />
