@@ -5,7 +5,6 @@ interface ButtonWithArrowProps {
     onClick?: () => void;
     className?: string;
     showArrow?: boolean;
-    bgImage?: string; // New prop for background image
 }
 
 const ButtonWithArrow: React.FC<ButtonWithArrowProps> = ({
@@ -13,7 +12,6 @@ const ButtonWithArrow: React.FC<ButtonWithArrowProps> = ({
     onClick,
     className = "",
     showArrow = true,
-   // Default background image
 }) => {
     return (
         <button

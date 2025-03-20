@@ -1,6 +1,5 @@
 import HeaderAbout from "@components/about/HeaderAbout";
 import Journey from "@components/about/Journey";
-import Testimonials from "@components/layout/Testimonials";
 
 export default function AboutPage() {
     return (

@@ -1,7 +1,6 @@
 "use client";
 import CustomImage from "@components/ui/CustomImage";
 import React from "react";
-import { FaFacebook, FaTwitter, FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 import Socials from "./Socials";
 
 const Footer = () => {

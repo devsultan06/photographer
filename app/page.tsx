@@ -4,7 +4,6 @@ import FaqBox from "@components/home/FaqBox";
 import HeaderHome from "@components/home/HeaderHome";
 import Marque from "@components/layout/Marque";
 import Services from "@components/home/Services";
-import Testimonials from "@components/layout/Testimonials";
 import CustomImage from "@components/ui/CustomImage";
 
 export default function Home() {
