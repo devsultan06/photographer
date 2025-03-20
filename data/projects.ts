@@ -77,21 +77,21 @@ export const commercialprojects = [
         id: 1,
         title: "Product Elegance",
         date: "August 2023",
-        image: "/images/com1.png",
+        image: "/images/comm1.png",
         link: "/projects/faces-of-resilience"
     },
     {
         id: 2,
         title: "Brand Storytelling",
         date: "May 2018",
-        image: "/images/com2.png",
+        image: "/images/comm2.png",
         link: "/projects/a-wedding-tale"
     },
     {
         id: 3,
         title: "Culinary Delights",
         date: "February 2017",
-        image: "/images/com3.png",
+        image: "/images/comm3.png",
         link: "/projects/product-elegance"
     }
 ];
