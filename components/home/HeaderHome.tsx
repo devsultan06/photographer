@@ -1,6 +1,6 @@
 import CustomImage from "@components/ui/CustomImage"
 
-const Header = () => {
+const HeaderHome = () => {
     return (
         <div className="flex justify-between
     items-center max-900:block border-b border-dark12 ">
@@ -23,4 +23,4 @@ const Header = () => {
         </div>)
 }
 
-export default Header
+export default HeaderHome

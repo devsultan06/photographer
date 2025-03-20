@@ -22,7 +22,7 @@ module.exports = {
         grey80: "#CACACE",
         lightgrey: "#666666",
         dark03: "#070708",
-        grey95: "#F2F2F3"
+        grey95: "#F2F2F3",
 
 
       },
