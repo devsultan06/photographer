@@ -5,7 +5,7 @@ import HeaderPortfolio from "@components/portfolio/HeaderPortfolio";
 import Portrait from "@components/portfolio/Portrait";
 
 
-export default function PortfolioPage() {
+export default function ServicesPage() {
     return (
         <div className="home bg-dark03 uppercase">
 

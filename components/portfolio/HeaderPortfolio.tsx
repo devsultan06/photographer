@@ -34,13 +34,12 @@ const HeaderPortfolio = () => {
                     <CustomImage src="/images/headport.png" alt="Ripple" width={2000} height={1000} className="w-[100%] mx-auto max-900:w-full max-900:p-5" />
                 </div>
 
-
             </div>
 
             <div className="text-center mb-[10px] max-900:mt-[50px] ">
                 <p className="text-grey50">BRANDS i hAVE wORKED wITH</p>
             </div>
-            <div className="border-b border-dark12 pb-[60px] ">
+            <div className=" pb-[60px] ">
                 <BrandsMarquee />
 
             </div>
