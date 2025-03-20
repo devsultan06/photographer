@@ -43,7 +43,7 @@ const Services = () => {
                     <CustomImage src="/images/servicesh.png" alt="About" width={200} height={200} className="w-full" />
                 </div>
 
-                <div className="flex-[2] p-5 rounded-[25px] h-fit">
+                <div className="flex-[2] max-900:mt-[20px] ">
                     <div className="flex items-center gap-2">
                         <h1 className="text-[40px] text-grey50">Events</h1>
                         <CustomImage src="/images/button.png" alt="Hero" width={80} height={100} />
@@ -51,8 +51,6 @@ const Services = () => {
                     <p className="text-grey50 lowercase pb-[20px] leading-[2.2]">
                         <span className="uppercase">O</span>ur event photography service is dedicated to capturing the magic of your special occasions. Whether it's a wedding, corporate event, or milestone celebration, we're there to document every heartfelt moment. We blend into the background, ensuring natural and candid shots that reflect the emotions of the day.
                     </p>
-
-
                     <div className="space-y-3">
                         <p className="text-grey80 capitalize mb-[10px]">Service Highlights</p>
                         {highlights.map((text, index) => (

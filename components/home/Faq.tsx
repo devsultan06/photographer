@@ -23,7 +23,7 @@ const Faq = () => {
                 >
                     <button
                         onClick={() => toggleFAQ(index)}
-                        className="w-full flex justify-between items-center text-white text-lg text-left"
+                        className="w-full flex justify-between items-start text-white text-lg text-left"
                     >
                         <span className="text-left text-grey70">{faq.question}</span>
                         {openIndex === index ? <BiChevronUp size={24} /> : <BiChevronDown size={24} />}

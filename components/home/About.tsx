@@ -18,7 +18,7 @@ const About = () => {
                     <CustomImage src="/images/about.png" alt="About" width={200} height={200} className="w-full" />
                 </div>
 
-                <div className="flex-[2] border border-dark12 p-5 rounded-[25px] h-fit">
+                <div className="flex-[2] border border-dark12 p-5 rounded-[25px] h-fit max-900:mt-[20px]">
                     <div className="flex items-center  gap-2 pb-[20px]">
                         <CustomImage src="/images/star2.png" alt="Ripple" width={30} height={100} />
                         <p className="text-grey80  capitalize text-[22px]">Introduction</p>
@@ -32,9 +32,9 @@ const About = () => {
                         <CustomImage src="/images/star2.png" alt="Ripple" width={30} height={100} />
                         <p className="text-grey80  capitalize text-[22px]">Contact Information</p>
                     </div>
-                    <div className="flex gap-7">
-                        <div>
-                            <p className="text-grey80  capitalize text-[18px]">Email</p>
+                    <div className="flex gap-7 max-900:block">
+                        <div className="max-900:mb-[20px]">
+                            <p className="text-grey80  capitalize text-[18px] ">Email</p>
                             <p className="text-grey70 lowercase">sultanabaniks@gmail.com</p>
                         </div>
 
