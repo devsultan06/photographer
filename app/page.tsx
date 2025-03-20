@@ -2,9 +2,9 @@ import About from "@components/home/About";
 import Explore from "@components/home/Explore";
 import FaqBox from "@components/home/FaqBox";
 import HeaderHome from "@components/home/HeaderHome";
-import Marque from "@components/home/Marque";
+import Marque from "@components/layout/Marque";
 import Services from "@components/home/Services";
-import Testimonials from "@components/home/Testimonials";
+import Testimonials from "@components/layout/Testimonials";
 import CustomImage from "@components/ui/CustomImage";
 
 export default function Home() {
@@ -20,14 +20,6 @@ export default function Home() {
       <Services />
       <Explore />
       <FaqBox />
-      <Testimonials />
-      <div className="text-right flex justify-end px-[100px] pb-[40px] pt-[10px] max-900:px-[20px]" >
-        <CustomImage src="/images/logo2.png" alt="Ripple" width={400} height={100} className="max-900:w-[80%]" />
-      </div>
-      <div className="pb-[80px]">
-        <Marque />
-
-      </div>
     </div>
   );
 }

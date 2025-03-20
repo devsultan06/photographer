@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@components/layout/Navbar";
 import Footer from "@components/layout/Footer";
+import Testimonials from "@components/layout/Testimonials";
+import CustomImage from "@components/ui/CustomImage";
+import Marque from "@components/layout/Marque";
 
 export const metadata: Metadata = {
   title: "DAMIEN",
@@ -15,12 +18,20 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-    
+
       <body
       >
         <Navbar />
         <div className="pt-[80px] bg-dark03">
           {children}
+
+        </div>
+        <Testimonials />
+        <div className="text-right flex justify-end px-[100px] pb-[40px] pt-[10px] max-900:px-[20px]" >
+          <CustomImage src="/images/logo2.png" alt="Ripple" width={400} height={100} className="max-900:w-[80%]" />
+        </div>
+        <div className="pb-[80px]">
+          <Marque />
 
         </div>
         <Footer />
