@@ -60,14 +60,13 @@ const Testimonials = () => {
                                     <h3 className=" text-grey90 capitalize">{testimonial.name}</h3>
                                     <p className="text-grey40 text-sm">{testimonial.location}</p>
                                 </div>
-                                <Socials/>
+                                <Socials />
                             </div>
 
 
                             <div className="flex gap-1 my-4">
-                                {Array.from({ length: testimonial.rating }).map((_, i) => (
-                                    <span key={i} className="text-yellow-400">⭐</span>
-                                ))}
+                                {"⭐".repeat(5)}
+
                             </div>
 
                             <p className="text-gray-300 normal-case">
@@ -81,8 +80,6 @@ const Testimonials = () => {
                     </div>
                 ))}
             </div>
-
-
 
 
         </div>
