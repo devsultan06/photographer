@@ -1,18 +1,18 @@
 import FaqBox from "@components/home/FaqBox";
-import Commercial from "@components/portfolio/Commercial";
-import Event from "@components/portfolio/Event";
-import HeaderPortfolio from "@components/portfolio/HeaderPortfolio";
-import Portrait from "@components/portfolio/Portrait";
+import CommercialServices from "@components/services/CommercialServices";
+import EventsServices from "@components/services/EventsServices";
+import HeaderServices from "@components/services/HeaderServices";
+import PortraitServices from "@components/services/PortraitServices";
 
 
 export default function ServicesPage() {
     return (
         <div className="home bg-dark03 uppercase">
 
-            <HeaderPortfolio />
-            <Portrait />
-            <Event />
-            <Commercial />
+            <HeaderServices />
+            <PortraitServices />
+            <EventsServices />
+            <CommercialServices />
             <FaqBox />
         </div>
     );
