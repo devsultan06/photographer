@@ -20,7 +20,7 @@ const HeaderContact = () => {
                     <CustomImage src="/images/contactbg.png" alt="Ripple" width={2000} height={1000} className="w-[100%] mx-auto max-900:w-full max-900:p-5" />
                 </div>
 
-                <div className="absolute right-[120px] max-900:mb-[200px] mt-[-540px] max-900:relative max-900:right-[0px] max-900:mx-auto max-900:flex max-900:gap-[20px] max-900:justify-center max-900:mt-[-300px]">
+                <div className="absolute right-[120px] max-700:mt-[-800px] max-900:mb-[300px] mt-[-540px] max-900:relative max-900:right-[0px] max-900:mx-auto max-900:flex max-900:gap-[20px] max-900:justify-center max-900:mt-[-390px]">
                     <Socials />
 
                 </div>
