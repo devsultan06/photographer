@@ -6,7 +6,7 @@ import { FiArrowUpRight } from "react-icons/fi"
 
 const HeaderContact = () => {
     return (
-        <div className="pb-[60px]  mb-[100px]">
+        <div className="pb-[60px]">
             <div className="relative pt-[50px] pb-[30px] max-900:block border-b border-dark12 px-[100px] max-900:px-[20px] " >
                 <div className="hidden max-900:block max-900:relative">
                     <CustomImage src="/images/contactmob.png" alt="Ripple" width={300} height={100} className=" w-full" />
