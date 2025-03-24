@@ -81,7 +81,7 @@ export default function NavBar() {
 
                     <div className="mt-[20px]">
 
-                        <GradientButton href="/contact">Contact Us</GradientButton>
+                        <GradientButton href="/contact" onClick={handleLinkClick}>Contact Us</GradientButton>
 
                     </div>
                 </div>
