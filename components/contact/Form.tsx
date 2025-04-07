@@ -15,14 +15,14 @@ const Form = () => {
                 </div>
 
                 <div className="flex-[2] ">
-                    <div className="flex gap-5 max-900:mt-[20px] max-900:block max-900:space-y-4">
+                    {/* <div className="flex gap-5 max-900:mt-[20px] max-900:block max-900:space-y-4">
                         <Link href="/" className="flex items-center gap-2 text-white">
                             +234-703-688-069 <FiArrowUpRight className="text-white" />
                         </Link>
                         <Link href="/" className="flex items-center gap-2 text-white lowercase">
                             sultanabaniks@gmail.com<FiArrowUpRight className="text-white" />
                         </Link>
-                    </div>
+                    </div> */}
 
                     
 
