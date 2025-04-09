@@ -49,10 +49,10 @@ const Form = () => {
                     </p>
                 </div>
 
-                <div className="flex-[2]">
+                <div className="flex-[2] max-900:mt-[40px]">
                     <form onSubmit={handleSubmit(onSubmit)}>
                         <div className="flex gap-10 max-900:block mb-[20px]">
-                            <div className="flex-[1] max-900:w-full">
+                            <div className="flex-[1] max-900:w-full max-900:mb-[30px]">
                                 <label className="text-grey90 capitalize">First Name</label>
                                 <input
                                     {...register("firstName")}
@@ -74,7 +74,7 @@ const Form = () => {
                         </div>
 
                         <div className="flex gap-10 max-900:block mb-[20px]">
-                            <div className="flex-[1] max-900:w-full">
+                            <div className="flex-[1] max-900:w-full max-900:mb-[30px]">
                                 <label className="text-grey90 capitalize">Email</label>
                                 <input
                                     {...register("email")}
