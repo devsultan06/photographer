@@ -5,6 +5,7 @@ import Footer from "@components/layout/Footer";
 import Testimonials from "@components/layout/Testimonials";
 import CustomImage from "@components/ui/CustomImage";
 import Marque from "@components/layout/Marque";
+import NextTopLoader from 'nextjs-toploader';
 
 export const metadata: Metadata = {
   title: "DAMIEN",
@@ -21,6 +22,7 @@ export default function RootLayout({
 
       <body
       >
+        <NextTopLoader color="#4B2CED" showSpinner={false} />
         <Navbar />
         <div className="pt-[80px] bg-dark03">
           {children}
