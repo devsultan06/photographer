@@ -1,8 +1,6 @@
 import { timelineData } from "@/data/timelineData";
 import CustomImage from "@components/ui/CustomImage";
 
-
-
 const Journey = () => {
     return (
         <div className="pb-[100px] pt-[60px] px-[100px] max-900:px-[20px]" >

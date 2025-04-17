@@ -1,5 +1,4 @@
 import ButtonWithArrow from "@components/ui/Button";
-import { BiChevronLeft, BiChevronRight } from "react-icons/bi";
 import ProjectGallery from "../layout/ProjectGallery";
 import { projects } from "@/data/projects";
 

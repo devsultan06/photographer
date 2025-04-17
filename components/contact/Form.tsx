@@ -6,7 +6,6 @@ import { useState } from "react"
 import { FormData, formSchema } from "@/schemas/formSchema"
 
 
-
 const Form = () => {
     const [sent, setSent] = useState(false)
 

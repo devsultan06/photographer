@@ -4,8 +4,6 @@ import Link from "next/link";
 import { FiArrowUpRight } from "react-icons/fi";
 
 
-
-
 const PortraitServices = () => {
     return (
         <div className="relative mb-[40px] border-b border-dark12">
