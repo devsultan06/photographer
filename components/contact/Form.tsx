@@ -1,23 +1,11 @@
 'use client'
-
-import Socials from "@components/layout/Socials"
 import CustomImage from "@components/ui/CustomImage"
-import Link from "next/link"
-import { FiArrowUpRight } from "react-icons/fi"
 import { useForm } from "react-hook-form"
-import { z } from "zod"
 import { zodResolver } from "@hookform/resolvers/zod"
 import { useState } from "react"
+import { FormData, formSchema } from "@/schemas/formSchema"
 
-const formSchema = z.object({
-    firstName: z.string().min(1, "First name is required"),
-    lastName: z.string().min(1, "Last name is required"),
-    email: z.string().email("Invalid email address"),
-    phone: z.string().optional(),
-    message: z.string().min(5, "Message must be at least 5 characters long"),
-})
 
-type FormData = z.infer<typeof formSchema>
 
 const Form = () => {
     const [sent, setSent] = useState(false)
